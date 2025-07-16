@@ -44,18 +44,18 @@ namespace ChallengesWithTestsMark8
 
         public long Multiply(long factor1, long factor2)
         {
-		return factor1 * factor2
+		return factor1 * factor2;
         }
 
-        public string GetGreeting(string nameOfPerson)
+       public string GetGreeting(string nameOfPerson)
         {
-		console.WriteLine($"Hello, {nameOfPerson}");
+		Console.WriteLine($"Hello, {nameOfPerson}");
 		return "";
         }
 
         public string GetHey()
         {
-		Console.Writeline("HEY!");
+		Console.WriteLine("HEY!");
 		return "";	
         }
     }
